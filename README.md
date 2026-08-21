@@ -42,3 +42,81 @@ project-work-nis2-acn/
 │   └── profilo_acn.json
 └── docs/
     └── documentazione_tecnica.pdf
+Script SQL
+01_schema.sql
+
+Creazione delle tabelle, chiavi primarie, chiavi esterne e vincoli di integrità.
+
+02_dataset.sql
+
+Popolamento del database con un dataset simulato utilizzato per il collaudo.
+
+03_trigger_history.sql
+
+Trigger e funzione PL/pgSQL per la storicizzazione delle modifiche degli asset.
+
+04_views_export.sql
+
+Creazione delle viste:
+
+Vista_Profilo_ACN
+Vista_Profilo_ACN_JSON
+
+utilizzate per produrre output strutturati destinati alla reportistica.
+
+05_indexes_roles.sql
+
+Creazione degli indici, procedura di data retention e ruoli RBAC.
+
+06_tests.sql
+
+Test di:
+
+integrità referenziale;
+unicità delle relazioni;
+storicizzazione;
+generazione delle viste;
+output finale.
+Output
+
+La cartella output contiene:
+
+profilo_acn.csv, output principale del prototipo;
+profilo_acn.json, esempio aggiuntivo di interoperabilità applicativa.
+Validazione
+
+Il progetto è stato validato end-to-end su un database PostgreSQL vuoto.
+
+Sono stati verificati con esito positivo:
+
+creazione dello schema;
+caricamento del dataset;
+trigger di storicizzazione;
+viste ACN e JSON;
+indici;
+ruoli RBAC;
+vincoli di foreign key;
+chiave primaria composta;
+registrazione dello stato precedente in Asset_History.
+
+Il dataset utilizzato è simulato e non contiene dati riferiti a infrastrutture reali.
+
+Ordine di esecuzione
+
+Gli script devono essere eseguiti nell'ordine seguente:
+
+01_schema.sql
+02_dataset.sql
+03_trigger_history.sql
+04_views_export.sql
+05_indexes_roles.sql
+06_tests.sql
+Documentazione
+
+La documentazione tecnica completa è disponibile nella cartella docs.
+
+Il Project Work principale descrive il modello concettuale, le scelte di normalizzazione, i trade-off progettuali, gli aspetti di sicurezza e le modalità di utilizzo del database nell'ambito NIS2/ACN.
+
+Nota
+
+Il database costituisce un prototipo a supporto della gestione strutturata delle informazioni. Non rappresenta da solo una soluzione completa di conformità NIS2, che richiede anche misure organizzative, procedurali e tecniche ulteriori.
