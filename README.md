@@ -81,32 +81,36 @@ generazione delle viste;
 output finale.
 Output
 
-La cartella output contiene:
+## Output
 
-profilo_acn.csv, output principale del prototipo;
-profilo_acn.json, esempio aggiuntivo di interoperabilità applicativa.
-Validazione
+La cartella `output` contiene:
+
+- `profilo_acn.csv`, output principale del prototipo;
+- `profilo_acn.json`, esempio aggiuntivo di interoperabilità applicativa.
+
+## Validazione
 
 Il progetto è stato validato end-to-end su un database PostgreSQL vuoto.
 
 Sono stati verificati con esito positivo:
 
-creazione dello schema;
-caricamento del dataset;
-trigger di storicizzazione;
-viste ACN e JSON;
-indici;
-ruoli RBAC;
-vincoli di foreign key;
-chiave primaria composta;
-registrazione dello stato precedente in Asset_History.
+- creazione dello schema;
+- caricamento del dataset;
+- trigger di storicizzazione;
+- viste ACN e JSON;
+- indici;
+- ruoli RBAC;
+- vincoli di foreign key;
+- chiave primaria composta;
+- registrazione dello stato precedente in `Asset_History`.
 
 Il dataset utilizzato è simulato e non contiene dati riferiti a infrastrutture reali.
 
-Ordine di esecuzione
+## Ordine di esecuzione
 
 Gli script devono essere eseguiti nell'ordine seguente:
 
+```text
 01_schema.sql
 02_dataset.sql
 03_trigger_history.sql
@@ -122,3 +126,13 @@ Il Project Work principale descrive il modello concettuale, le scelte di normali
 Nota
 
 Il database costituisce un prototipo a supporto della gestione strutturata delle informazioni. Non rappresenta da solo una soluzione completa di conformità NIS2, che richiede anche misure organizzative, procedurali e tecniche ulteriori.
+
+Questo sistemerà anche le righe che ora appaiono tutte attaccate, ad esempio l’elenco dei test e l’ordine degli script.
+
+Per le cartelle sì: quando le avrai portate tutte allo stesso livello, la home dovrà mostrare semplicemente:
+
+```text
+docs/
+output/
+sql/
+README.md
