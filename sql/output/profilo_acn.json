@@ -1,0 +1,22 @@
+[
+  {
+    "organizzazione": "Industria Meccanica di Precisione S.p.A.",
+    "servizio_essenziale": "Controllo Qualità Telemetrico e Produzione CNC",
+    "apparato": "Server Cluster SCADA",
+    "stato_operativo": "Attivo",
+    "gestore_esterno": null,
+    "punto_contatto": "Mario Rossi",
+    "ruolo": "CISO - Chief Information Security Officer",
+    "email": "m.rossi@industriameccanica.it"
+  },
+  {
+    "organizzazione": "Industria Meccanica di Precisione S.p.A.",
+    "servizio_essenziale": "Controllo Qualità Telemetrico e Produzione CNC",
+    "apparato": "Firewall Perimetrale Reparto",
+    "stato_operativo": "Attivo",
+    "gestore_esterno": "SecureNet IT S.r.l.",
+    "punto_contatto": "Mario Rossi",
+    "ruolo": "CISO - Chief Information Security Officer",
+    "email": "m.rossi@industriameccanica.it"
+  }
+]
