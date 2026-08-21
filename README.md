@@ -108,6 +108,7 @@ Il dataset utilizzato è simulato e non contiene dati riferiti a infrastrutture 
 
 ## Ordine di esecuzione
 
+
 Gli script devono essere eseguiti nell'ordine seguente:
 
 ```text
@@ -117,22 +118,17 @@ Gli script devono essere eseguiti nell'ordine seguente:
 04_views_export.sql
 05_indexes_roles.sql
 06_tests.sql
-Documentazione
+```
 
-La documentazione tecnica completa è disponibile nella cartella docs.
+## Documentazione
+
+La documentazione tecnica completa è disponibile nella cartella `docs`.
 
 Il Project Work principale descrive il modello concettuale, le scelte di normalizzazione, i trade-off progettuali, gli aspetti di sicurezza e le modalità di utilizzo del database nell'ambito NIS2/ACN.
 
-Nota
+## Nota
 
 Il database costituisce un prototipo a supporto della gestione strutturata delle informazioni. Non rappresenta da solo una soluzione completa di conformità NIS2, che richiede anche misure organizzative, procedurali e tecniche ulteriori.
-
-Questo sistemerà anche le righe che ora appaiono tutte attaccate, ad esempio l’elenco dei test e l’ordine degli script.
-
-Per le cartelle sì: quando le avrai portate tutte allo stesso livello, la home dovrà mostrare semplicemente:
-
-```text
-docs/
 output/
 sql/
 README.md
