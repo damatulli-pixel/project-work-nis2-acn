@@ -1,0 +1,3 @@
+﻿Organizzazione,Servizio Essenziale,Rischio Servizio,Apparato/Asset,Stato Operativo,Dipendenza Supply Chain,Criticita Fornitore,Punto di Contatto,Ruolo,Email
+Industria Meccanica di Precisione S.p.A.,Controllo Qualità Telemetrico e Produzione CNC,Critico,Server Cluster SCADA,Attivo,,,Mario Rossi,CISO - Chief Information Security Officer,m.rossi@industriameccanica.it
+Industria Meccanica di Precisione S.p.A.,Controllo Qualità Telemetrico e Produzione CNC,Critico,Firewall Perimetrale Reparto,Attivo,SecureNet IT S.r.l.,Critico,Mario Rossi,CISO - Chief Information Security Officer,m.rossi@industriameccanica.it
