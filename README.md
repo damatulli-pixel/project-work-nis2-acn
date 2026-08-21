@@ -42,7 +42,9 @@ project-work-nis2-acn/
 │   └── profilo_acn.json
 └── docs/
     └── documentazione_tecnica.pdf
-Script SQL
+```
+## Script SQL
+
 01_schema.sql
 
 Creazione delle tabelle, chiavi primarie, chiavi esterne e vincoli di integrità.
