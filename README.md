@@ -129,6 +129,4 @@ Il Project Work principale descrive il modello concettuale, le scelte di normali
 ## Nota
 
 Il database costituisce un prototipo a supporto della gestione strutturata delle informazioni. Non rappresenta da solo una soluzione completa di conformità NIS2, che richiede anche misure organizzative, procedurali e tecniche ulteriori.
-output/
-sql/
-README.md
+
